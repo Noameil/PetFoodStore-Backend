@@ -1,0 +1,29 @@
+### Create a new order:
+POST http://localhost:8080/api/v1/orders
+Content-Type: application/json
+
+### Get all orders:
+GET http://localhost:8080/api/v1/orders
+
+### Get a valid order by id:
+GET http://localhost:8080/api/v1/orders/1
+
+### Get an invalid order by id:
+GET http://localhost:8080/api/v1/orders/100000
+
+### Update a valid order by id:
+PUT http://localhost:8080/api/v1/orders/1
+Content-Type: application/json
+
+### Delete an order by id:
+DELETE http://localhost:8080/api/v1/orders/2
+
+###Create a new User:
+POST http://localhost:8080/api/v1/auth/signup
+Content-Type: application/json
+
+{
+  "email": "mike@gmail.com",
+  "username": "mike",
+  "password": "Password1!"
+}

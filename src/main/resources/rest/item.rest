@@ -1,0 +1,14 @@
+### Create and Item:
+POST http://localhost:8080/api/v1/items
+Content-Type: application/json
+
+{
+  "itemName": "Bonacibo Adult Cat Chicken And Anchovies 5kg",
+  "categories": [
+    102
+  ]
+}
+
+
+### Get all Items:
+GET http://localhost:8080/api/v1/items
